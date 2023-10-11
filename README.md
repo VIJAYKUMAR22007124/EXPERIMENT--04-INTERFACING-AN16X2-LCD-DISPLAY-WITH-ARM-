@@ -122,7 +122,7 @@ Jump to second line, position 2
 
 2. Selecting GPIO Ports
 
-PAO,PA1,PA2,PA3,PB0 PB1 -> GPIO Output
+   PAO,PA1,PA2,PA3,PB0 PB1 -> GPIO Output
 
 3. generating the code
 
@@ -132,7 +132,7 @@ PAO,PA1,PA2,PA3,PB0 PB1 -> GPIO Output
 
 6. Select Ports STM32F401RB and LCD 16*2
 
-7 Connect PAO to D7, PA1 to D6, PA2 to D5, PA3 to D5, RS to PBO and E to PB1
+7. Connect PAO to D7, PA1 to D6, PA2 to D5, PA3 to D5, RS to PBO and E to PB1
 
 8. Check the execution of the output using Run option.
 

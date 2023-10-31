@@ -45,79 +45,36 @@ There are some preset commands instructions in LCD, which we need to send to LCD
 
 Hex Code
 
-Command to LCD Instruction Register
 
-0F
+Clear display screen - 01
 
-LCD ON, cursor ON
+Return home - 02
 
-01
+Decrement cursor (shift cursor to left) - 04
 
-Clear display screen
+Increment cursor (shift cursor to right) - 06
 
-02
+Shift display right - 05
 
-Return home
+Shift display left -07
 
-04
+Display ON, cursor blinking - 0E
 
-Decrement cursor (shift cursor to left)
+Force cursor to beginning of first line - 80
 
-06
+Force cursor to beginning of second line - C0
 
-Increment cursor (shift cursor to right)
+2 lines and 5×7 matrix - 38
 
-05
+Cursor line 1 position 3 - 0,2
 
-Shift display right
+Display OFF, cursor OFF - 08
 
-07
+Jump to second line, position 1 - C1
 
-Shift display left
+Display ON, cursor OFF - 0C
 
-0E
-
-Display ON, cursor blinking
-
-80
-
-Force cursor to beginning of first line
-
-C0
-
-Force cursor to beginning of second line
-
-38
-
-2 lines and 5×7 matrix
-
-83
-
-Cursor line 1 position 3
-
-3C
-
-Activate second line
-
-08
-
-Display OFF, cursor OFF
-
-C1
-
-Jump to second line, position 1
-
-OC
-
-Display ON, cursor OFF
-
-C1
-
-Jump to second line, position 1
-
-C2
-
-Jump to second line, position 2
+Jump to second line, position 2 - C2
  
 ## Procedure:
 
